@@ -32,14 +32,14 @@ cd Skin_Cancer_CNN
 ### **2. Crear un entorno virtual**
 Crea un entorno virtual para gestionar las dependencias del proyecto:
 
-``` bash
+```bash
 python -m venv env
 source env/bin/activate  # En Windows: env\Scripts\activate
 
 ### **4. Descargar el dataset**
 
 ### **5. Ejecutar el notebook**
-``` bash
+```bash
 jupyter notebook Skin_Cancer_CNN.ipynb
 
 
