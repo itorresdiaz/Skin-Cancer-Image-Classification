@@ -9,14 +9,14 @@ El objetivo de este TFG es desarrollar un modelo de clasificación de imágenes 
 ## **Estructura del repositorio**
 
 - **`Skin_Cancer_CNN.ipynb`**: Notebook principal con el código utilizado para el preprocesamiento de datos, definición de modelos, entrenamiento, evaluación y análisis de resultados.
-- **`/models`**: Carpeta opcional para guardar los modelos entrenados en formato `.pth` o `.h5`.
+- **`/models`**: Carpeta para guardar los modelos entrenados en formato `.pth`.
 - **`README.md`**: Archivo actual que explica los detalles del repositorio.
 
 ## **Características del proyecto**
 
 - **Modelos utilizados:**
   - Modelo personalizado.
-  - Arquitecturas clásicas como **LeNet** y **AlexNet**.
+  - Modelos con arquitecturas clásicas como **LeNet** y **AlexNet**.
 - **Técnicas de validación:**
   - Validación cruzada estratificada (5 pliegues).
 - **Explicabilidad:**
@@ -27,4 +27,19 @@ El objetivo de este TFG es desarrollar un modelo de clasificación de imágenes 
 ### **1. Clonar el repositorio**
 ```bash
 git clone https://github.com/IsidoroTorres/TFG-Skin-Cancer-Classification.git
-cd TFG-Skin-Cancer-Classification
+cd Skin_Cancer_CNN
+
+### **2. Crear un entorno virtual**
+Crea un entorno virtual para gestionar las dependencias del proyecto:
+
+``` bash
+python -m venv env
+source env/bin/activate  # En Windows: env\Scripts\activate
+
+### **4. Descargar el dataset**
+
+### **5. Ejecutar el notebook**
+``` bash
+jupyter notebook Skin_Cancer_CNN.ipynb
+
+
